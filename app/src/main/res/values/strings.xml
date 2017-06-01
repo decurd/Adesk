@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Adesk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="expired_login_session_title">로그인 만료</string>
+    <string name="expired_login_session_msg">\"로그인 정보가 만료되었거나 다른기기에서 로그인 하였습니다.\\n다시 로그인하시기 바랍니다?\"</string>
+    <string name="unable_access_network_error">\"네트워크 에러가 발생하였습니다. \\n네트워크 환경을 확인하시고 다시 시도시하기 바랍니다\"</string>
+
+
+    <!-- TODO: Section B -->
+    <string name="message_yes">예</string>
+    <string name="message_no">아니오</string>
+    <string name="quit">종료하시겠습니까?</string>
+    <string name="network_warning_message">3G/LTE 네트워크를 이용하시겠습니까?</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="use_3g_lte">3G/LTE 사용</string>
+    <string name="network_setting">네트워크 설정</string>
+    <string name="alert_not_connect_internet">현재 인터넷 연결이 되지 않았습니다.\n인터넷 연결 확인 후 다시 접속해주세요.</string>
+    <string name="use_3g_lte_message">현재 3G/LTE 네트워크로 접속되어 있습니다.\n서비스를 이용하시려면 3G/LTE 사용 버튼을 눌러주세요.\n서비스 이용시 별도의 데이터 통화료가 부과될 수 있습니다.</string>
+    <string name="alert_no_certification_app">카드사 공인인증 APP이 설치되어 있지 않습니다.\n페이지내의 설치하기 버튼을 터치 하여 주시기 바랍니다.</string>
+    <string name="install">설치</string>
+    <string name="retry">재시도</string>
+    <string name="exit_app">앱종료</string>
+    <string name="home">홈</string>
+    <string name="search">검색</string>
+    <string name="event">이벤트</string>
+    <string name="reservation_details">예약내역</string>
+    <string name="settings">설정</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!-- TODO: 테스트를 위해서 삽입한 문구들 -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_item_attachment">Attachment</string>
+    <string name="nav_item_images">Images</string>
+    <string name="nav_item_location">My Location</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="drawer_header_text">Drawer Header</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="login_hint">User ID</string>
+    <string name="password_hint">password</string>
+    <string name="auto_login">자동로그인</string>
+    <string name="share_extra_subject">[신개념 호텔 예약]\n\n</string>
+    <string name="share_extra_text">아래 링크를 클릭해 주세요\n</string>
+    <string name="share_extra_uri">https://play.google.com/store/apps/details?id=com.rapids.benikea</string>
+    <string name="share_extra_chooser">아래에서 선택해 주세요</string>
+
+
+</resources>

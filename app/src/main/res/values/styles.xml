@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified</item>
+        <item name="android:windowFullscreen">false</item>
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- toolbar text 색깔 -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- 액티비티 윈도우 배경색 -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- 기본 텍스트 색깔 -->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- 메뉴 화살표 색깔 -->
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="CPB" parent="android:Widget.Holo.ProgressBar"></style>
+
+    <style name="CircularProgressBar" parent="CPB">
+        <item name="cpb_color">@color/cpb_default_color</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cpb_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style>
+
+    <color name="cpb_default_color">#33b5e5</color>
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+    <item name="cpb_default_sweep_speed" format="float" type="string">1</item>
+    <item name="cpb_default_rotation_speed" format="float" type="string">1</item>
+
+    <style name="TextMenuBigBold">
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMenuBig">
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+
+    <style name="TextMenuMedium">
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+
+    <style name="TextListMedium">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="TextListMediumDarkGray">
+        <item name="android:textColor">@color/text_color_dark_grey</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="TextListMediumGray">
+        <item name="android:textColor">@color/text_color_grey</item>
+        <item name="android:textSize">8dp</item>
+    </style>
+
+    <!-- 버튼텍스트 스타일 -->
+    <style name="BtnLoginText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- BootStrap -->
+    <style name="wrapping_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/micro_padding</item>
+    </style>
+
+    <style name="DialogNoWindowFrame" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
